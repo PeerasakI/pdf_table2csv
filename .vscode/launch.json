@@ -1,0 +1,29 @@
+{
+    "version": "1.0",
+    "configurations": [
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Start",
+            "program": "${workspaceFolder}\\pdfconverter.py"
+        },
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Setup",
+            "program": "${workspaceFolder}\\setup.py"
+        },
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Start At Desktop",
+            "program": "${workspaceFolder}\\pdfconverter.py",
+            "args": [
+                "--ImportPath",
+                "C:\\users\\dvp10\\desktop\\EDITAL (2).pdf",
+                "--ExportPath",
+                "C:\\users\\dvp10\\desktop"
+            ]
+        }
+    ]
+}
